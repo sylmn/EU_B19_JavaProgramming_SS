@@ -1,0 +1,9 @@
+\n   // Yeni satır (Newline): İmleci bir alt satıra taşır.
+\t   // Sekme (Tab): Yatay sekme ekler (genellikle 4 veya 8 boşluk).
+\b   // Geri silme (Backspace): Önceki karakteri siler.
+\r   // Satır başı (Carriage Return): İmleci satır başına taşır.
+\f   // Form feed: Sayfa sonu karakteri (genellikle eski yazıcılar için).
+\\   // Ters eğik çizgi (Backslash): Ters eğik çizgiyi eklemek için.
+\'   // Tek tırnak (Single Quote): Tek tırnak işaretini eklemek için.
+\"   // Çift tırnak (Double Quote): Çift tırnak işaretini eklemek için.
+\0   // Null karakteri: Boş karakteri temsil eder.

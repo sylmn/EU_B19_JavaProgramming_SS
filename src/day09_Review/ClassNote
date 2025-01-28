@@ -1,0 +1,48 @@
+SDT19T 15.01.2025 19:17 • Day9
+
+Operators
+
+Arithmetic Operators (+ - * / %)
+Unary Operators (+,-,++,--)
+int num= +34;
+int num2= -34;
+
+ShortHandOperator(=, +=, -=, *=, /=, %=)
+Relational Operators(> , < , >=, <=, ==, !=)
+5!=4; ---- > TRUE
+
+
+
+int num=5;
+num+=2; ----> num= num+2; yeni num değeri olarak atar
+
+
+Unary Operators
+++ ; increase the value by 1;
+-- ; decrease the value by 1.
+
+POST vs PRE
+
+PRE : changes the value immediately
+++a;
+--a;
+
+POST : changes the value second step
+a++;
+a--;
+
+
+Assignment Operators ShortHand Operator
+x=x+y; x+=y;
+x=x-y x-=y
+x=x*y x*=y
+x=x/y x/=y
+x=x%y x%=y
+x=y x=y
+
+
+Scanner scan = new Scanner(System.in);
+
+
+scan.next(); --> ilk boşluğa kadar
+scan.nextLine(); --> ilk enter a kadar alır

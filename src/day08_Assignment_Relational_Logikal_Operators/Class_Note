@@ -1,0 +1,8 @@
+
+*   Neden ihtiyaç oluyor? Bir işlem vardır ve sizin dışınızda bir data üretiyordur. O zaman cast ediliyor.
+
+*   Örneğin bir web sitesini test edeceksiniz. Amazonda çalışıyoruz. Test edebilmemiz
+    için hangi programlama diliyle yazıldığının bir önemi yok, html kodlarına ulaşabilelim yeter.
+    Burada birçok farklı programlama dili kullanılıyor. aralarında geçişlerde casting kullanılıyor.
+
+*
