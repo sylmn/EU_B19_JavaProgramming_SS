@@ -21,7 +21,7 @@ public class C09_SayiBasamakDegerToplami {
                 birler = sayi % 10;
                 basamak++;
                 toplam = birler + toplam;
-
+            System.out.println("here");
             }
 
         System.out.println("toplam = " + toplam);
