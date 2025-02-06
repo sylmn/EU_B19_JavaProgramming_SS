@@ -2,8 +2,19 @@ package day03_Comments_EscapeChars;
 
 public class C04_Rectangle {
     public static void main(String[] args) {
-        System.out.               println("***********");
 
+        /**
+1. Create a class called Rectangle, and print the following shape of rectangle
+        * * * * * *
+        *         *
+        *         *
+        *         *
+        *         *
+        *         *
+        * * * * * *
+ */
+
+        System.out.               println("***********");
 
 
 
@@ -22,7 +33,7 @@ public class C04_Rectangle {
         System.out.println("*         *");
         System.out.println("***********");
 
-        // spaces are not considerd in java compiling
+        // spaces are not considered in java compiling
 
         System.out.println("-----------------------");
 
@@ -30,18 +41,3 @@ public class C04_Rectangle {
     }
 }
 
-
-
-/*
-1. Create a class called Rectangle, and print the following shape of
-rectangle
-        * * * * * *
-        *         *
-        *         *
-        *         *
-        *         *
-        *         *
-        * * * * * *
-
-
- */

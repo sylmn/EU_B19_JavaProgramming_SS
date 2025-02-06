@@ -2,6 +2,9 @@ package day08_Assignment_Relational_Logikal_Operators;
 
 public class C05_SwappingTwoNumbers {
     public static void main(String[] args) {
+
+        // Verilen iki sayının değerlerini birbiriyle değiştiren kod nedir?
+
         int sayi1 = 20;
         int sayi2 = 30;
 
@@ -15,6 +18,7 @@ public class C05_SwappingTwoNumbers {
         System.out.println("Sonrası -> sayi1: " + sayi1 + ", sayi2: " + sayi2);
 
         //2.çözüm
+
         int sayi01 = 20;
         int sayi02 = 30;
 

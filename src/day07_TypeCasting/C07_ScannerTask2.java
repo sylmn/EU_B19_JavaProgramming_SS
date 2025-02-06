@@ -5,12 +5,14 @@ import java.util.Scanner;
 public class C07_ScannerTask2 {
     public static void main(String[] args) {
 
-        // Kullanicidan ismini, soyismini ve yasini alip, asagidaki formatta yazdirin.
-        // Isminiz : Himmet
-        // Soyisminiz : Abi
-        // Yasiniz : 38
-        // Dogum Yeriniz : Kayseri
-        // Kaydiniz basariyla tamamlanmistir.
+        /**
+         // Kullanicidan ismini, soyismini ve yasini alip, asagidaki formatta yazdirin.
+         // Isminiz : Himmet
+         // Soyisminiz : Abi
+         // Yasiniz : 38
+         // Dogum Yeriniz : Kayseri
+         // Kaydiniz basariyla tamamlanmistir.
+         */
 
         Scanner scan = new Scanner(System.in);
         System.out.print("Lütfen adınızı giriniz        : ");

@@ -2,16 +2,25 @@ package day11_If_Else_Nestedif;
 
 public class C01_Summary {
     public static void main(String[] args) {
+
         System.out.println("A");
 
-        if(true){
+        if (false) {
             System.out.println("B");
-        }else if (true){
+
+        } else if (false) {
             System.out.println("C");
-        }else {
+
+        } else if (false) {
             System.out.println("D");
+
+        } else if (false) {
+            System.out.println("F");
+
+        } else {
+            System.out.println("G");
         }
 
-        System.out.println("E");
+        System.out.println("H");
     }
 }

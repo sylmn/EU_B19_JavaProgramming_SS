@@ -5,7 +5,7 @@ public class C05_EscapeCharacters {
 
         System.out.println("Merhaba \\ Dünya");
 
-        /*
+        /**
             \n   --> Yeni satır   new line
             \t  ---> bir tab boşluk bırakır
             \b   --> Backspace

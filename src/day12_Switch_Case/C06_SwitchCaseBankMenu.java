@@ -14,11 +14,42 @@ public class C06_SwitchCaseBankMenu {
         System.out.println("3- Para Yatırma");
         System.out.println("4- Çıkış");
 
+        System.out.println("Yapacağınız işlem numarasını giriniz : ");
+
         int secim = input.nextInt();
         int bakiye = 5000;
 
-        switch (secim){
+        switch (secim) {
 
+            case 1:
+                System.out.println("Bakiyeniz = " + bakiye + " TL");
+                break;
+
+            case 2:
+                System.out.println("Çekeceğiniz para miktarını giriniz--->");
+                int miktar = input.nextInt();
+                if (miktar > bakiye) {
+                    System.out.println("Yetersiz bakiye...!!");
+                    System.out.println("En fazla çekebileceğiniz miktar = " + bakiye + " TL");
+                } else {
+                    bakiye -= miktar;
+                    System.out.println("Güncel bakiyeniz = " + bakiye + " TL");
+                }
+                break;
+
+            case 3:
+                System.out.println("Yatıracağınız para miktarını giriniz--->");
+                int yatirilanMiktar = input.nextInt();
+                bakiye += yatirilanMiktar;
+                System.out.println("Güncel bakiyeniz = " + bakiye + " TL");
+                break;
+
+            case 4:
+                System.out.println("Bankamızı tercih ettiğiniz için teşekkürler...");
+                break;
+
+            default:
+                System.out.println("Geçersiz işlem...!");
         }
     }
 }

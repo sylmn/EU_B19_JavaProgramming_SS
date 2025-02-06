@@ -14,7 +14,7 @@ public class C03_SwitchWeekDays {
         String gunAdi = "";
         String gunTipi = "";
 
-        switch (day){
+        switch (day) {                  //AdvancedSwitch
             case 1 -> gunAdi = "Pazartesi";
             case 2 -> gunAdi = "Salı";
             case 3 -> gunAdi = "Çarşamba";
@@ -24,15 +24,42 @@ public class C03_SwitchWeekDays {
             case 7 -> gunAdi = "Pazar";
             default -> System.out.println("Geçersiz gün bilgisi!!!");
         }
+        /**
+         * switch (day){
+         *             case 1 :
+         *                 gunAdi = "Pazartesi";
+         *                 break;
+         *             case 2 :
+         *                 gunAdi = "Salı";
+         *                 break;
+         *             case 3 :
+         *                 gunAdi = "Çarşamba";
+         *                 break;
+         *             case 4 :
+         *                 gunAdi = "Perşembe";
+         *                 break;
+         *             case 5 :
+         *                 gunAdi = "Cuma";
+         *                 break;
+         *             case 6 :
+         *                 gunAdi = "Cumartesi";
+         *                 break;
+         *             case 7 :
+         *                 gunAdi = "Pazar";
+         *                 break;
+         *             default:
+         *                 System.out.println("Geçersiz gün bilgisi!!!");
+         *         }
+         */
 //////////////////////////
-        switch (day){
-            case 1,2,3,4,5 -> gunTipi = "Haftaiçi";
-            case 6,7 -> gunTipi = "Haftasonu";
+        switch (day) {
+            case 1, 2, 3, 4, 5 -> gunTipi = "Haftaiçi";
+            case 6, 7 -> gunTipi = "Haftasonu";
             default -> System.out.println("Geçersiz gün bilgisi!!!");
         }
 
-        if (gunAdi != ""){
-            System.out.println("Haftanın "+gunAdi+ " günüdür. Ve "+gunTipi+ "'dir.");
+        if (gunAdi != "") {
+            System.out.println("Haftanın " + gunAdi + " günüdür. Ve " + gunTipi + "'dir.");
         }
 
     }

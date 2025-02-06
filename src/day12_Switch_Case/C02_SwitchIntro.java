@@ -3,6 +3,7 @@ package day12_Switch_Case;
 public class C02_SwitchIntro {
     public static void main(String[] args) {
         int sayi = 10;
+
         //10-A
         //20-B
         //30-C

@@ -3,17 +3,16 @@ package day08_Assignment_Relational_Logikal_Operators;
 public class C11_LogicalExlusiveOR {
     public static void main(String[] args) {
 
-        boolean b = (5 != 8); //true
-        System.out.println("b = " + b);
+        System.out.println(true ^ true); //false
+        System.out.println(true ^ false); //true
+        System.out.println(false ^ true);  //true
+        System.out.println(false ^ false); //false
 
-        boolean b1 = !(5==8);
-        System.out.println("b1 = " + b1);
+        int sayi1 = 20;
+        int sayi2 = 22;
 
-        int i1 = 15;
-        int i2 = 10;
+        System.out.println("(sayi1 ^ sayi2) = " + (sayi1 ^ sayi2)); // 2  // aradaki farkı verir..
 
-//tekli operand
-        boolean result1 = !(i1 > i2) | !(i1 <= i2);
-        System.out.println("result1 = " + result1); //true
+        System.out.println("Github deneme");
     }
 }

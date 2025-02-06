@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class C02_IfElse_DayOfWeek {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
         System.out.print("Haftanın gününü rakamla girin : ");
 
@@ -37,5 +38,5 @@ public class C02_IfElse_DayOfWeek {
         if (haftaninGunu >= 1 && haftaninGunu <= 7) {
             System.out.println("Bugün " + gunAdi + " dir.");
         }
-        }
     }
+}

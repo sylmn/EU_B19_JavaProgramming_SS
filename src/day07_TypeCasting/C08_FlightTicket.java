@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class C08_FlightTicket {
     public static void main(String[] args) {
-        /*
-        TASKS:
+        /** TASKS:
         1. create a class named FlightTicket, and declare the following
             variables:
             1. from
@@ -16,6 +15,7 @@ public class C08_FlightTicket {
             ex:
             From Ankara to Istanbul is 599TL
             */
+
         Scanner scan=new Scanner(System.in);
         System.out.println("Which airport do you want to depart from? ");
         String from = scan.nextLine();

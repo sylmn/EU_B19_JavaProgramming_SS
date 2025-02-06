@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 public class C07_SwitchBeden {
     public static void main(String[] args) {
-        /*
-        bir program yazın switch yapısını kullansın
-        beden numarası alsın
-        small 38, 40, 42
-        medium 44, 46, 48
-        large 50,52,54
+        /**
+         bir program yazın switch yapısını kullansın
+         beden numarası alsın
+         small 38, 40, 42
+         medium 44, 46, 48
+         large 50,52,54
 
-        output: 50 numara bir large bedendir.
+         output: 50 numara bir large bedendir.
          */
+
         Scanner scan = new Scanner(System.in);
         System.out.print("Lütfen bir beden girin : ");
         int beden = scan.nextInt();
