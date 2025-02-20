@@ -1,37 +1,45 @@
 package day28_StringReview;
 
 public class C03_Reverse {
+
     public static void main(String[] args) {
 
         System.out.println("reverse(\"katakulli\") = " + reverse("katakulli"));
-        System.out.println("reverse1(\"merhaba\") = " + reverse1("merhaba"));
-        System.out.println("reverse2(\"deneme\") = " + reverse2("deneme"));
+        System.out.println("reverse1(\"katakulli\") = " + reverse1("katakulli"));
+        System.out.println("reverse2(\"katakulli\") = " + reverse2("katakulli"));
+
+        String s = "Ahmet";  //length = 5 ama index 4'de bitiyor.
+        System.out.println("s.substring(s.length()) = " + s.substring(s.length()-1));//t
+        System.out.println("s.substring(s.length()) = " + s.substring(s.length()-2));//et
+        System.out.println("s.substring(0,s.length()-1) = " + s.substring(0, s.length()-1));
+
     }
 
-    public static String reverse(String str) {
-        String reverse = "";
-        for (int i = str.length() - 1; i >= 0; i--) {
-            reverse += str.charAt(i);
+    // verilen stringi terse çeviren metodu yazınız.
+
+    public static String reverse(String str){
+        String reversed = "";
+        for (int i = str.length() - 1; i >= 0 ; i--) {
+            reversed += str.charAt(i);
         }
-        return reverse;
+        return reversed;
     }
 
-    public static String reverse1(String str) {
-        String reverse = "";
-        for (int i = str.length() - 1; i >= 0; i--) {
-            reverse = reverse.concat(str.substring(i, i + 1)); //+= yerine concat yazdik.+= daha performansli
+    public static String reverse1(String str){
+        String reversed = "";
+        for (int i = str.length()-1; i >=0 ; i--) {
+          reversed = reversed.concat(str.substring(i, i+1));
         }
-        return reverse;
+        return reversed;
     }
 
-    public static String reverse2(String str) {
-        String reverse = "";
-
-        while(!str.isEmpty()){
-            String lastLetter = str.substring(str.length()-1);
-            reverse+=lastLetter;
-            str = str.substring(0,str.length()-1);
-        }
-        return reverse;
+    public static String reverse2(String str){
+        String reversed = "";
+       while (!str.isEmpty()){
+           String lastLetter = str.substring(str.length()-1);
+           reversed += lastLetter;
+           str = str.substring(0,str.length()-1);
+       }
+       return reversed;
     }
 }
